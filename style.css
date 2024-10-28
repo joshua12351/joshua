@@ -1,0 +1,173 @@
+#banner {
+    height: 90vh;
+    background: linear-gradient(to right,hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn {
+    padding: 15px 30px;
+ font-weight: 700px;
+ letter-spacing: 1px;
+ border-radius: 60px;
+ transition: all 0.5s ease;
+
+
+}
+
+.btn-brand{
+    background-color: rgb(224, 162, 103, 0.829);
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+
+.btn-brand:hover {
+    border: 2px solid #FFF;
+}
+
+section {
+    padding: 100px 0;
+}
+
+#about h3 {
+    font-size: 55px;
+    font-weight: 900;
+    color: aqua;
+}
+
+#service {
+    background-color: rgb(24, 105, 82);
+}
+
+.card-img-top{
+    width: 40%;
+}
+
+.card {
+    transition: all 0.3s ease;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.card:hover {
+    background-color: rgb(118, 199, 143);
+
+}
+
+.card:hover .card-text, .card:hover .card-title {
+    color: #6ae097;
+}
+
+#service .btn-brand:hover {
+    background-color: #449b5e !important;
+    color: #4dc968;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+#testimonials a {
+    color: aquamarine;
+}
+
+.testimonials {
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.testimonials {
+    color: #449b5e;
+    }
+
+.navar {
+    box-shadow: 0 0 5px rgb(rgb(12, 92, 29), green, rgb(6, 121, 111));
+}
+#faq{
+    background-color: #FFF;
+}
+
+.faq-selection {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-bottun {
+    background-color: #4dc968;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(118, 199, 143);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #4dc968;
+
+}
+
+.accordion-bottun:not(.collape) {   
+    background-color: rgb(rgb(171, 184, 194));
+    color: #FFF;
+}
+
+
+.accordion-bottun:hover {
+    background-color: #4dc968;
+    color: aliceblue
+}
+
+#cta {
+    height: 90vh;
+    background: linear-gradient(to right,hsla(0, 2%, 17%, 0.856), rgba(50, 148, 107, 0.315)), url('pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    padding-top: 50%;
+    padding-bottom: 50%;
+    background-color: #4dc968;
+
+}
+footer ul.listunstled li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn-outline-light{
+    border-color: #449b5e;
+    color: #4dc968;
+    border-radius: 0;
+}
+@media screen and (max-widht767px)
+      #about img {
+        height: 300px;
+        width: 300px;
+}
+
+#service .card {
+    margin-top: 20px;
+}
+section {
+    padding: 60px 20px;
+}
