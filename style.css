@@ -146,7 +146,7 @@ section {
 footer {
     padding-top: 50%;
     padding-bottom: 50%;
-    background-color: #4dc968;
+    background-color: #bad3bf;
 
 }
 footer ul.listunstled li a{
@@ -155,12 +155,12 @@ footer ul.listunstled li a{
 }
 
 .btn-outline-light{
-    border-color: #449b5e;
-    color: #4dc968;
+    border-color: #0f0f0f;
+    color: #000000;
     border-radius: 0;
 }
-@media screen and (max-widht767px)
-      #about img {
+@media screen and (max-widht767px) {
+    #about img {
         height: 300px;
         width: 300px;
 }
@@ -170,4 +170,5 @@ footer ul.listunstled li a{
 }
 section {
     padding: 60px 20px;
+}
 }
